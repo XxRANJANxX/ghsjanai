@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government High School, Janai</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ============== TOP BAR ============== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span>📞 +91-9411944223</span>
+                <span>✉️ ghsjanai1242@gmail.com </span>
+            </div>
+           
+            <div class="language-switcher">
+                <button class="language-btn" id="languageBtn">
+                    <span class="lang-flag" id="currentFlag">🇬🇧</span>
+                    <span id="currentLang">English</span>
+                    <span>▼</span>
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <div class="language-option selected" data-lang="en">
+                        <span class="lang-flag">🇬🇧</span>
+                        <span>English</span>
+                    </div>
+                    <div class="language-option" data-lang="hi">
+                        <span class="lang-flag">🇮🇳</span>
+                        <span>हिंदी</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============== HEADER & NAVIGATION ============== -->
+    <header>
+        <div class="container">
+            <nav>
+               <div class="logo">
+    <img src="images/logo.webp" alt="School Logo" class="school-logo">
+    <span data-en="Government High School, Janai"
+          data-hi="राजकीय हाई स्कूल, जनई">
+        Government High School, Janai
+    </span>
+</div>
+
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" data-en="Home" data-hi="होम">Home</a></li>
+                    <li><a href="#about" data-en="About Us" data-hi="हमारे बारे में">About Us</a></li>
+                    <li class="notice-nav">
+    <a href="#notice" data-en="Notices" data-hi="सूचनाएँ">
+        Notices
+        <span class="notice-icon" id="noticeIcon">🔔</span>
+    </a>
+</li>
+
+                    <li><a href="#academics" data-en="Academics" data-hi="शिक्षाविद">Academics</a></li>
+                    <li><a href="#events" data-en="Events" data-hi="कार्यक्रम">Events</a></li>
+                    <li><a href="#employment" data-en="Staff" data-hi="कर्मचारी">Staff</a></li>
+                    <li><a href="#contact" data-en="Contact" data-hi="संपर्क करें">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============== HERO SECTION ============== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-en="Empowering Rural Education" data-hi="ग्रामीण शिक्षा को सशक्त बनाना">Empowering Rural Education</h1>
+                <p data-en="Quality Education for Every Student" data-hi="हर विद्यार्थी के लिए गुणवत्तापूर्ण शिक्षा">Quality Education for Every Student</p>
+                <a href="#about" class="btn btn-primary" data-en="Explore More" data-hi="और जानें">Explore More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== QUICK STATS ============== -->
+    <section class="quick-stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">135+</span>
+                    <span class="stat-label" data-en="Students" data-hi="विद्यार्थी">Students</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label" data-en="Faculty Members" data-hi="शिक्षक सदस्य">Faculty Members</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number"> 9-10 </span>
+                    <span class="stat-label" data-en="Classes (9-10)" data-hi="कक्षाएं (9-10)">Classes (9-10)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2012</span>
+                    <span class="stat-label" data-en="Established" data-hi="स्थापित">Established</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== ABOUT US SECTION ============== -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="About Us" data-hi="हमारे बारे में">About Us</h2>
+                <p data-en="Committed to Quality Education" data-hi="गुणवत्तापूर्ण शिक्षा के लिए प्रतिबद्ध">Committed to Quality Education</p>
+            </div>
+            <div class="about-content">
+             <img src="images/school.jpeg"
+     alt="Government High School, Janai"
+     class="about-image">
+
+                <div class="about-text">
+                    <h3 data-en="Welcome to Government High School, Janai" data-hi="राजकीय हाई स्कूल, जनई में आपका स्वागत है">Welcome to Government High School, Janai</h3>
+                    <p data-en="Government High School, Janai, Raebareli is a prestigious government-run secondary school of Uttar Pradesh, established in the year 2012. The school is recognized by the Board of High School and Intermediate Education, Uttar Pradesh (Prayagraj) and provides education for Classes 9 and 10." 
+                       data-hi="राजकीय हाई स्कूल, जनई, रायबरेली उत्तर प्रदेश सरकार द्वारा संचालित एक प्रतिष्ठित राजकीय माध्यमिक विद्यालय है, जो वर्ष 2012 से संचालित है। यह विद्यालय माध्यमिक शिक्षा परिषद, उत्तर प्रदेश (प्रयागराज) से मान्यता प्राप्त है तथा कक्षा 9 एवं 10 तक की शिक्षा प्रदान करता है।">Government High School, Janai, Raebareli is a prestigious government-run secondary school of Uttar Pradesh, established in the year 2012. The school is recognized by the Board of High School and Intermediate Education, Uttar Pradesh (Prayagraj) and provides education for Classes 9 and 10.</p>
+                    
+                    <p data-en="The school offers admission to both boys and girls. At present, 135 students are enrolled in the institution." 
+                       data-hi="विद्यालय में छात्र एवं छात्राओं दोनों के लिए प्रवेश की सुविधा उपलब्ध है। वर्तमान में विद्यालय में 135 छात्र-छात्राएँ अध्ययनरत हैं।">The school offers admission to both boys and girls. At present, 135 students are enrolled in the institution.</p>
+                    
+                    <p data-en="The academic activities of the school are conducted under the guidance of one Headmaster and four Assistant Teachers, who are dedicated to the all-round development of the students." 
+                       data-hi="विद्यालय का शैक्षणिक संचालन एक प्रधानाध्यापक एवं चार सहायक अध्यापकों के माध्यम से किया जाता है, जो विद्यार्थियों के सर्वांगीण विकास हेतु समर्पित हैं।">The academic activities of the school are conducted under the guidance of one Headmaster and four Assistant Teachers, who are dedicated to the all-round development of the students.</p>
+                    
+                    <p data-en="Teaching is carried out in accordance with the prescribed Uttar Pradesh Board curriculum, and students are provided with effective and systematic guidance for the High School Board Examination." 
+                       data-hi="यहाँ शिक्षण कार्य उत्तर प्रदेश बोर्ड के निर्धारित पाठ्यक्रम के अनुसार किया जाता है तथा विद्यार्थियों को हाई स्कूल बोर्ड परीक्षा हेतु प्रभावी एवं सुव्यवस्थित मार्गदर्शन प्रदान किया जाता है।">Teaching is carried out in accordance with the prescribed Uttar Pradesh Board curriculum, and students are provided with effective and systematic guidance for the High School Board Examination.</p>
+                    
+                    <p data-en="The primary objective of the school is to provide accessible, quality, and value-based education to students from rural areas." 
+                       data-hi="विद्यालय का उद्देश्य ग्रामीण क्षेत्र के विद्यार्थियों को सुलभ, गुणवत्तापूर्ण एवं मूल्यपरक शिक्षा उपलब्ध कराना है।">The primary objective of the school is to provide accessible, quality, and value-based education to students from rural areas.</p>
+                </div>
+            </div>
+
+            <!-- Vision & Mission -->
+            <div class="vision-mission">
+                <div class="vm-card">
+                    <h3 data-en=" Vision – Our Objective" data-hi=" Vision – हमारा उद्देश्य"> Vision – Our Objective</h3>
+                    <p data-en="To provide education that enables students to become knowledgeable, self-reliant, disciplined, and responsible citizens of society and the nation." 
+                       data-hi="विद्यार्थियों को ऐसी शिक्षा प्रदान करना जिससे वे ज्ञानवान, आत्मनिर्भर, अनुशासित एवं समाज तथा राष्ट्र के प्रति जिम्मेदार नागरिक बन सकें।">To provide education that enables students to become knowledgeable, self-reliant, disciplined, and responsible citizens of society and the nation.</p>
+                </div>
+                <div class="vm-card">
+                    <h3 data-en=" Mission – Our Goals" data-hi=" Mission – हमारा लक्ष्य"> Mission – Our Goals</h3>
+                    <ul>
+                        <li data-en="To provide quality secondary education" data-hi="गुणवत्तापूर्ण माध्यमिक शिक्षा प्रदान करना">To provide quality secondary education</li>
+                        <li data-en="To develop discipline and moral values among students" data-hi="विद्यार्थियों में अनुशासन एवं नैतिक मूल्यों का विकास करना">To develop discipline and moral values among students</li>
+                        <li data-en="To ensure strong academic preparation for board examinations" data-hi="बोर्ड परीक्षा हेतु सुदृढ़ शैक्षणिक तैयारी कराना">To ensure strong academic preparation for board examinations</li>
+                        <li data-en="To provide equal opportunities to all students" data-hi="सभी विद्यार्थियों को समान अवसर प्रदान करना">To provide equal opportunities to all students</li>
+                        <li data-en="To build a bright future through education" data-hi="शिक्षा के माध्यम से उज्ज्वल भविष्य का निर्माण करना">To build a bright future through education</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= NOTICE BOARD ================= -->
+<section id="notice">
+    <div class="container">
+        <div class="section-header">
+            <h2 data-en="Notice Board" data-hi="सूचना पट्ट">Notice Board</h2>
+            <p data-en="Latest announcements and updates"
+               data-hi="नवीनतम घोषणाएँ एवं सूचनाएँ">
+               Latest announcements and updates
+            </p>
+        </div>
+
+        <div class="notice-board">
+            <ul>
+               <!-- <li>
+                    <span class="notice-date">12 Jan 2025</span>
+                    <span class="notice-text"
+                          data-en="Republic Day celebration on 26 January"
+                          data-hi="26 जनवरी को गणतंत्र दिवस समारोह">
+                          Republic Day celebration on 26 January
+                    </span>
+                </li>
+
+                <li>
+                    <span class="notice-date">05 Jan 2025</span>
+                    <span class="notice-text"
+                          data-en="School will remain closed on Sunday"
+                          data-hi="रविवार को विद्यालय बंद रहेगा">
+                          School will remain closed on Sunday
+                    </span>
+                </li>
+
+                <li>
+                    <span class="notice-date">28 Dec 2024</span>
+                    <span class="notice-text"
+                          data-en="Pre-board examination timetable released"
+                          data-hi="प्री-बोर्ड परीक्षा की समय सारणी जारी">
+                          Pre-board examination timetable released
+                    </span>
+                </li> -->
+
+                <div class="notice-board">
+    <p class="no-notice"
+       data-en="No notices till now"
+       data-hi="वर्तमान में कोई सूचना उपलब्ध नहीं है">
+       No notices till now
+    </p>
+</div>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- ============== ACADEMICS SECTION ============== -->
+    <section class="academics" id="academics">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-en="Academics" data-hi="शिक्षाविद">Academics</h2>
+                <p data-en="UP Board Curriculum for Classes 9-10" data-hi="कक्षा 9-10 के लिए यूपी बोर्ड पाठ्यक्रम">UP Board Curriculum for Classes 9-10</p>
+            </div>
+            <div class="academics-grid">
+                <div class="academic-card" style="grid-column: 1 / -1; text-align: left;">
+                    <p data-en="Education for Classes 9 and 10 is provided in the school in accordance with the Uttar Pradesh Board curriculum. All subjects are taught by experienced teachers, and special academic guidance is provided to students for effective preparation for the Board Examinations." 
+                       data-hi="विद्यालय में कक्षा 9 एवं 10 की शिक्षा उत्तर प्रदेश बोर्ड के पाठ्यक्रम के अनुसार प्रदान की जाती है। अनुभवी शिक्षकों द्वारा सभी विषयों का अध्यापन किया जाता है तथा बोर्ड परीक्षा की तैयारी हेतु विशेष मार्गदर्शन प्रदान किया जाता है।">Education for Classes 9 and 10 is provided in the school in accordance with the Uttar Pradesh Board curriculum. All subjects are taught by experienced teachers, and special academic guidance is provided to students for effective preparation for the Board Examinations.</p>
+                </div>
+            </div>
+
+            <!-- Facilities Section -->
+            <div style="margin-top: 3rem; background: white; padding: 2rem; border-radius: 12px;">
+                <h3 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 1.5rem;" data-en="🏫 Facilities" data-hi="🏫 Facilities – सुविधाएँ">🏫 Facilities</h3>
+                <div class="academics-grid">
+                    <div class="academic-card">
+                        <div class="academic-icon">🏫</div>
+                        <p data-en="Clean and secure school campus" data-hi="स्वच्छ एवं सुरक्षित विद्यालय परिसर">Clean and secure school campus</p>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-icon">🚪</div>
+                        <p data-en="Adequate classroom facilities" data-hi="पर्याप्त कक्षा-कक्ष">Adequate classroom facilities</p>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-icon">👨‍🏫</div>
+                        <p data-en="One Headmaster and four Assistant Teachers" data-hi="एक प्रधानाध्यापक एवं चार सहायक अध्यापक">One Headmaster and four Assistant Teachers</p>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-icon">📖</div>
+                        <p data-en="Disciplined academic environment" data-hi="अनुशासित शैक्षणिक वातावरण">Disciplined academic environment</p>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-icon">🎭</div>
+                        <p data-en="Encouragement of co-curricular activities" data-hi="सह-शैक्षणिक गतिविधियों को प्रोत्साहन">Encouragement of co-curricular activities</p>
+                    </div>
+                    <div class="academic-card">
+                        <div class="academic-icon">🏛️</div>
+                        <p data-en="Benefits of various government schemes" data-hi="सरकारी योजनाओं का लाभ">Benefits of various government schemes</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admission Section -->
+            <div style="margin-top: 3rem; background: linear-gradient(135deg, rgba(30, 64, 175, 0.1), rgba(14, 165, 233, 0.1)); padding: 2rem; border-radius: 12px; border-left: 5px solid var(--primary);">
+                <h3 style="font-size: 1.75rem; color: var(--primary); margin-bottom: 1.5rem;" data-en="📝 Admission Information" data-hi="📝 Admission – प्रवेश सूचना">📝 Admission Information</h3>
+                <p style="margin-bottom: 1rem; line-height: 1.8;" data-en="Admission to Classes 9 and 10 is carried out in accordance with the guidelines issued by the Government of Uttar Pradesh and the Education Department." 
+                   data-hi="विद्यालय में कक्षा 9 एवं 10 में प्रवेश उत्तर प्रदेश सरकार एवं शिक्षा विभाग द्वारा जारी दिशा-निर्देशों के अनुसार किया जाता है।">Admission to Classes 9 and 10 is carried out in accordance with the guidelines issued by the Government of Uttar Pradesh and the Education Department.</p>
+                
+                <h4 style="font-size: 1.25rem; color: var(--dark); margin-top: 1.5rem; margin-bottom: 1rem;" data-en="Required Documents for Admission:" data-hi="प्रवेश हेतु आवश्यक दस्तावेज:">Required Documents for Admission:</h4>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li style="padding: 0.5rem 0; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary); font-weight: bold;">📄</span>
+                        <span data-en="Mark sheet of the previous class" data-hi="पूर्व कक्षा की अंकतालिका">Mark sheet of the previous class</span>
+                    </li>
+                    <li style="padding: 0.5rem 0; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary); font-weight: bold;">📄</span>
+                        <span data-en="Transfer Certificate (TC)" data-hi="स्थानांतरण प्रमाण पत्र (TC)">Transfer Certificate (TC)</span>
+                    </li>
+                    <li style="padding: 0.5rem 0; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary); font-weight: bold;">📄</span>
+                        <span data-en="Date of Birth Certificate" data-hi="जन्म तिथि प्रमाण पत्र">Date of Birth Certificate</span>
+                    </li>
+                    <li style="padding: 0.5rem 0; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary); font-weight: bold;">📄</span>
+                        <span data-en="Copy of Aadhaar Card" data-hi="आधार कार्ड की प्रति">Copy of Aadhaar Card</span>
+                    </li>
+                    <li style="padding: 0.5rem 0; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--primary); font-weight: bold;">📄</span>
+                        <span data-en="Passport-size photograph" data-hi="पासपोर्ट साइज फोटोग्राफ">Passport-size photograph</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== EVENTS SECTION ============== -->
+    <section id="events">
+    <div class="container">
+        <div class="section-header">
+            <h2 data-en="Recent Events" data-hi="हाल की गतिविधियाँ">
+                Recent Events
+            </h2>
+            <p data-en="Celebrating Learning & Achievements"
+               data-hi="सीख और उपलब्धियों का उत्सव">
+                Celebrating Learning & Achievements
+            </p>
+        </div>
+
+        <div class="events-grid">
+
+            <!-- ================= REPUBLIC DAY ================= -->
+            <div class="event-card">
+                <div class="event-image">
+                     <img src="images/republic.jpeg">
+                </div>
+                <div class="event-content">
+                    <span class="event-date"
+                          data-en="January 26, 2025"
+                          data-hi="26 जनवरी 2025">
+                        January 26, 2025
+                    </span>
+                    <h3 class="event-title"
+                        data-en="Republic Day Celebration"
+                        data-hi="गणतंत्र दिवस समारोह">
+                        Republic Day Celebration
+                    </h3>
+                    <p class="event-description"
+                       data-en="The school celebrated Republic Day with flag hoisting, patriotic songs, cultural programs, and speeches highlighting constitutional values."
+                       data-hi="विद्यालय में ध्वजारोहण, देशभक्ति गीतों, सांस्कृतिक कार्यक्रमों एवं संविधानिक मूल्यों पर भाषणों के साथ गणतंत्र दिवस मनाया गया।">
+                        The school celebrated Republic Day with flag hoisting, patriotic songs, cultural programs, and speeches highlighting constitutional values.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ================= YOGA DAY ================= -->
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="images/yoga.jpeg">
+                </div>
+                <div class="event-content">
+                    <span class="event-date"
+                          data-en="June 21, 2025"
+                          data-hi="21 जून 2025">
+                        June 21, 2025
+                    </span>
+                    <h3 class="event-title"
+                        data-en="International Yoga Day"
+                        data-hi="अंतर्राष्ट्रीय योग दिवस">
+                        International Yoga Day
+                    </h3>
+                    <p class="event-description"
+                       data-en="The school organized a mass yoga session to promote physical fitness, mental well-being, and a healthy lifestyle among students and staff."
+                       data-hi="विद्यालय द्वारा छात्रों एवं शिक्षकों के शारीरिक एवं मानसिक स्वास्थ्य को बढ़ावा देने हेतु सामूहिक योग अभ्यास का आयोजन किया गया।">
+                        The school organized a mass yoga session to promote physical fitness, mental well-being, and a healthy lifestyle among students and staff.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ================= SUMMER CAMP ================= -->
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="images/summer.jpeg">
+                </div>
+                <div class="event-content">
+                    <span class="event-date"
+                          data-en="May 15–30, 2025"
+                          data-hi="15–30 मई 2025">
+                        May 15–30, 2025
+                    </span>
+                    <h3 class="event-title"
+                        data-en="Summer Camp 2025"
+                        data-hi="समर कैंप 2025">
+                        Summer Camp 2025
+                    </h3>
+                    <p class="event-description"
+                       data-en="A two-week summer camp featuring sports, arts, yoga, and personality development activities for overall student growth."
+                       data-hi="दो सप्ताह का समर कैंप जिसमें खेल, कला, योग एवं व्यक्तित्व विकास गतिविधियाँ आयोजित की गईं।">
+                        A two-week summer camp featuring sports, arts, yoga, and personality development activities for overall student growth.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        </div>
+    </section>
+
+    <!-- ============== STAFF SECTION ============== -->
+    <section class="academics" id="employment">
+    <div class="container">
+        <div class="section-header">
+            <h2
+                data-en="Our Faculty"
+                data-hi="हमारा संकाय">
+                Our Faculty
+            </h2>
+            <p
+                data-en="Meet Our Dedicated Educators"
+                data-hi="हमारे समर्पित शिक्षकों से मिलें">
+                Meet Our Dedicated Educators
+            </p>
+        </div>
+
+        <div class="employee-grid">
+
+            <!-- ================= PRINCIPAL ================= -->
+            <div class="employee-card">
+                 <img src="images/principal.jpeg"
+          alt="Mr. Neeraj Ranjan - Principal"
+                  class="employee-photo">
+
+                <div class="employee-info">
+                    <h3 class="employee-name">Mr. Neeraj Ranjan</h3>
+                    <p class="employee-position"
+                       data-en="Principal"
+                       data-hi="प्रधानाचार्य">
+                        Principal
+                    </p>
+                    <p class="employee-dept"
+                       data-en="Administration"
+                       data-hi="प्रशासन">
+                        Administration
+                    </p>
+                </div>
+            </div>
+
+            <!-- ================= TEACHER 1 ================= -->
+        <div class = "employee-card">
+
+          <img src="images/teacher1.jpeg"
+          alt="Mr. Pradeep Kumar Yadav - Assistant Teacher"
+                  class="employee-photo">
+
+                <div class="employee-info">
+                    <h3 class="employee-name">Mr. Pradeep Kumar Yadav </h3>
+                    <p class="employee-position"
+                       data-en="Assistant Teacher"
+                       data-hi="सहायक अध्यापक">
+                        Assistant Teacher
+                    </p>
+                    <p class="employee-dept"
+                       data-en="Social Science"
+                       data-hi="सामाजिक विज्ञान">
+                        Social Science
+                    </p>
+                </div>
+            </div>
+
+            <!-- ================= TEACHER 2 ================= -->
+            <div class="employee-card">
+                <img src="images/teacher2.jpeg"
+          alt="Mr. Pradeep Kumar Yadav - Assistant Teacher"
+                  class="employee-photo">
+
+                <div class="employee-info">
+                    <h3 class="employee-name">Mr. Pradeep Kumar Pandey</h3>
+                    <p class="employee-position"
+                       data-en="Assistant Teacher"
+                       data-hi="सहायक अध्यापक">
+                        Assistant Teacher
+                    </p>
+                    <p class="employee-dept"
+                       data-en="Physical Education"
+                       data-hi="शारीरिक शिक्षा">
+                        Physical Education
+                    </p>
+                </div>
+            </div>
+
+            <!-- ================= TEACHER 3 ================= -->
+            <div class="employee-card">
+                <img src="images/teacher4.jpeg"
+          alt="Mr. Pradeep Kumar Yadav - Assistant Teacher"
+                  class="employee-photo">
+                <div class="employee-info">
+                    <h3 class="employee-name">Mr. Anuj Kumar Mishra</h3>
+                    <p class="employee-position"
+                      data-en="Assistant Teacher"
+                       data-hi="सहायक अध्यापक">
+                        Assistant Teacher
+                    </p>
+                    <p class="employee-dept"
+                       data-en="Mathematics"
+                       data-hi="गणित">
+                         Mathematics
+                    </p>
+                </div>
+            </div>
+            <!-- ================= TEACHER 4 ================= -->
+<div class="employee-card">
+   <img src="images/teacher3.jpeg"
+          alt="Mr. Pradeep Kumar Yadav - Assistant Teacher"
+                  class="employee-photo">
+    <div class="employee-info">
+        <h3 class="employee-name">Mr. Alok Kumar Sonker</h3>
+        <p class="employee-position"
+            data-en="Assistant Teacher"
+                       data-hi="सहायक अध्यापक">
+                        Assistant Teacher
+        </p>
+        <p class="employee-dept"
+           data-en="Hindi"
+           data-hi="हिंदी">
+            Hindi
+        </p>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- ============== FOOTER / CONTACT SECTION ============== -->
+    <footer id="contact">
+    <div class="container">
+        <div class="footer-content">
+
+            <!-- ================= ABOUT SCHOOL ================= -->
+            <div class="footer-section">
+                <h3 data-en="About School" data-hi="विद्यालय के बारे में">
+                    About School
+                </h3>
+                <p
+                    data-en="Government High School, Janai is committed to providing quality education and fostering holistic development of students."
+                    data-hi="राजकीय हाई स्कूल, जनई गुणवत्तापूर्ण शिक्षा प्रदान करने तथा विद्यार्थियों के सर्वांगीण विकास को बढ़ावा देने के लिए प्रतिबद्ध है।">
+                    Government High School, Janai is committed to providing quality education and fostering holistic development of students.
+                </p>
+            </div>
+
+            <!-- ================= QUICK LINKS ================= -->
+            <div class="footer-section">
+                <h3 data-en="Quick Links" data-hi="त्वरित लिंक">
+                    Quick Links
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#about" data-en="About Us" data-hi="हमारे बारे में">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#academics" data-en="Academics" data-hi="शिक्षाविद">
+                            Academics
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#events" data-en="Events" data-hi="कार्यक्रम">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#employment" data-en="Careers" data-hi="करियर">
+                            Careers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ================= CONTACT INFO ================= -->
+            <div class="footer-section">
+                <h3 data-en="Contact Info" data-hi="संपर्क जानकारी">
+                    Contact Info
+                </h3>
+                <ul>
+                    <li
+                        data-en="📍 Janai, Raebareli, Uttar Pradesh"
+                        data-hi="📍 जनई, रायबरेली, उत्तर प्रदेश">
+                        📍 Janai, Raebareli, Uttar Pradesh
+                    </li>
+            
+                        📞 +91-9411944223
+                    </li>
+                    <li></li>
+                     ✉️ ghsjanai1242@gmail.com
+                    </li>
+                    <li
+                        data-en="🕐 Mon-Sat: 8:00 AM - 3:00 PM"
+                        data-hi="🕐 सोमवार–शनिवार: प्रातः 7:30 बजे–दोपहर 2:30 बजे (अक्टूबर–मार्च), प्रातः 9:30 बजे–अपराह्न 3:30 बजे
+">
+                        🕐 Mon-Sat: 7:30 AM-2:30 PM ,(OCT to MAR) 9:30 AM - 3:30 PM
+                    </li>
+                </ul>
+            </div>
+        <!-- ================= FOOTER BOTTOM ================= -->
+        <div class="footer-bottom">
+            <p
+                data-en="© 2026 Government High School, Janai. All rights reserved. | Designed with ❤️ for Education"
+                data-hi="© 2026 राजकीय हाई स्कूल, जनई। सर्वाधिकार सुरक्षित। | शिक्षा के लिए ❤️ के साथ डिज़ाइन किया गया">
+                © 2026 Government High School, Janai. All rights reserved. | Designed with ❤️ for Education
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- ============== JAVASCRIPT LINK ============== -->
+    <script src="js/main.js"></script>
+</body>
+</html>
