@@ -175,3 +175,27 @@ document.querySelectorAll(
 window.addEventListener("load", () => {
     document.body.style.opacity = "1";
 });
+/* =========================
+   HERO IMAGE SLIDER (FIXED)
+========================= */
+
+const hero = document.querySelector(".hero");
+
+if (hero) {
+    const images = [
+        "images/image1.jpeg",
+        "images/image2.jpeg",
+        "images/image3.jpeg"
+    ];
+
+    let index = 0;
+
+   
+    hero.style.backgroundImage = `url('${images[0]}')`;
+
+    setInterval(() => {
+        index = (index + 1) % images.length;
+        hero.style.backgroundImage = `url('${images[index]}')`;
+    }, 4000);
+}
+
