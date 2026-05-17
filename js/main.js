@@ -198,4 +198,22 @@ if (hero) {
         hero.style.backgroundImage = `url('${images[index]}')`;
     }, 4000);
 }
+/* =========================
+   NOTICE BOARD HANDLER
+========================= */
+
+const noticeList = document.getElementById("noticeList");
+const noNotice = document.getElementById("noNotice");
+const noticeIcon = document.getElementById("noticeIcon");
+
+if (noticeList && noNotice && noticeIcon) {
+
+    if (noticeList.children.length > 0) {
+        noNotice.style.display = "none";
+        noticeIcon.style.display = "inline-block";
+    } else {
+        noNotice.style.display = "block";
+        noticeIcon.style.display = "none";
+    }
+}
 
